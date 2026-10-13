@@ -1,0 +1,1 @@
+../../../../Resources/tkinterdnd2/tkdnd/osx-arm64/tkdnd_compat.tcl

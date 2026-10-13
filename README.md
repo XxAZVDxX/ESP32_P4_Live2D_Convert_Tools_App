@@ -188,8 +188,4 @@ Set `L2D_APP_ARCH=1` to also append the CPU architecture
 
 ---
 
-## Related project
-
-The renderer firmware that consumes these exports lives in
-[Live2D_on_ESP32_P4](https://github.com/XxAZVDxX/Live2D_on_ESP32_P4_Private).
 
