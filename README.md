@@ -168,24 +168,3 @@ Notes:
 | The app will not start on macOS | Right-click → Open once, or clear the quarantine flag with `xattr` as shown above. |
 
 ---
-
-## Building the app from source
-
-Requires Python 3 with `tkinter`, plus `pillow`, `numpy`, `tkinterdnd2` and
-`pyinstaller`, and a C compiler to build the model baker.
-
-```bash
-# from the repository root
-python -m PyInstaller --noconfirm --clean \
-  --distpath dist --workpath build \
-  tools/live2d_converter_gui.spec
-```
-
-The bundle name automatically includes the target OS
-(`ESP32-P4 Live2D Convert Tools - macOS`, `… - Windows`, `… - Linux`).
-Set `L2D_APP_ARCH=1` to also append the CPU architecture
-(`ESP32-P4 Live2D Convert Tools - macOS-arm64`).
-
----
-
-
